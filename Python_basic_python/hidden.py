@@ -1,4 +1,4 @@
-# Hide the message
+# Hide the message in a file
 secret = input("Enter a secret message: ")
 with open("hidden.txt", "w") as file:
     file.write(secret)
