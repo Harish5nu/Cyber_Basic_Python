@@ -1,4 +1,4 @@
-# Hide the message in a file with logs:
+# Hide the message in a file with logs and useful for authentication.
 import datetime
 import requests
 
