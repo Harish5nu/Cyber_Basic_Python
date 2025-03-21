@@ -6,7 +6,7 @@ import requests
 time_stamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 ip_address = requests.get('https://api.ipify.org').text
 
-# Save secret message
+# Save the secret message
 secret = input("Enter a secret message: ")
 with open("hidden.txt", "w") as file:
     file.write(f"Time: {time_stamp}\nIP: {ip_address}\nSecret: {secret}\n")
