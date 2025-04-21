@@ -17,4 +17,4 @@ print("✅ Message hidden!")
 if input("Reveal message? (yes/no): ").lower() == "yes":
     print(open("hidden.txt").read())
 else:
-    print("🔒 Message remains hidden.")
+    print("🔒 Message Hemains Hidden.")
